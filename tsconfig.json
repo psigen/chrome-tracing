@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["ES2020"],
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "ES2020"
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["typings/index.d.ts", "src/**/*"]
+}
