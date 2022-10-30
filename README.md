@@ -1,2 +1,3 @@
-# chrome-tracing
-Typescript library for generating and parsing Chrome Tracing JSON.
+# chrome-tracing-simple
+
+Minimal typescript library for generating Chrome Tracing JSON.
