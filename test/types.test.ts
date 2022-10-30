@@ -2,7 +2,6 @@ import {
   Event,
   EventClockSync,
   EventComplete,
-  EventCounter,
   EventDuration,
   EventInstant,
   EventMark,
@@ -11,6 +10,9 @@ import {
   JSONArrayTrace,
   JSONObjectTrace,
 } from "../src/types";
+
+// See reference documentation:
+// - https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/edit?usp=sharing
 
 describe("types", () => {
   describe("JSONArrayTrace", () => {
