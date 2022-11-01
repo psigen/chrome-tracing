@@ -1,5 +1,5 @@
 import {
-  Event,
+  EventTrace,
   EventClockSync,
   EventComplete,
   EventDuration,
@@ -58,7 +58,7 @@ describe("types", () => {
 
   describe("Event", () => {
     it("matches reference documentation", () => {
-      const a: Event = {
+      const a: EventTrace = {
         name: "myName",
         cat: "category,list",
         ph: "B",
